@@ -1,0 +1,13 @@
+train: /home/alexanderjprado/SIC25-DataMasters/datasets/Vehicle_Classification/train/images
+val: /home/alexanderjprado/SIC25-DataMasters/datasets/Vehicle_Classification/valid/images
+test: /home/alexanderjprado/SIC25-DataMasters/datasets/Vehicle_Classification/test/images
+
+nc: 5
+names: ['Police', 'motobike', 'mp_car', 'truck', 'van']
+
+roboflow:
+  workspace: alexander-k8gnn
+  project: vehicle-type-detection-ukj4d
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/alexander-k8gnn/vehicle-type-detection-ukj4d/dataset/3
